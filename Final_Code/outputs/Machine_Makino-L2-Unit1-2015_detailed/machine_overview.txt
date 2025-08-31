@@ -1,0 +1,8 @@
+MACHINE Makino-L2-Unit1-2015 ANALYSIS
+==============================
+
+Total_Records: 808.00
+Failure_Count: 396.00
+Failure_Rate_%: 49.01
+Date_Range_Days: 193.00
+Avg_Daily_Records: 4.19

@@ -1,0 +1,8 @@
+CNC MAINTENANCE DATASET OVERVIEW
+========================================
+
+Total Records: 2500.00
+Date Range (days): 221.00
+Machines: 3.00
+Failure Rate (%): 50.60
+Missing Values (%): 0.48

@@ -1,0 +1,52 @@
+
+SENSOR OPTIMIZATION ANALYSIS - CORRECTED VERSION
+=================================================
+
+Validation Method: Leave-One-Machine-Out Cross-Validation
+- Each machine (M1, M2, M3) held out in turn for testing
+- No data leakage through Machine_ID encoding
+- Conservative model parameters to prevent overfitting
+
+Dataset:
+- Total samples: 2500
+- Failure rate: 50.6%
+- Number of sensors: 12
+
+Baseline Performance (All 12 Sensors):
+- Mean ROC-AUC: 0.9959 (±0.0005)
+- Per-machine AUC:
+    - M1: 0.9955
+  - M2: 0.9955
+  - M3: 0.9966
+
+Top 5 Most Important Sensors:
+  1. Hydraulic_Pressure(bar) (importance: 0.2717)
+  11. Torque(Nm) (importance: 0.2600)
+  12. Cutting(kN) (importance: 0.2204)
+  2. Coolant_Pressure(bar) (importance: 0.1471)
+  9. Spindle_Speed(RPM) (importance: 0.0689)
+
+Key Findings:
+1. Minimum sensors for 95% performance: 2 sensors
+   - Remove 10 sensors
+   - Achieve AUC of 0.9939
+   
+2. Minimum sensors for 90% performance: 1 sensors
+   - Remove 11 sensors
+   - Achieve AUC of 0.9275
+
+3. Performance degrades significantly below 1 sensors
+
+Recommendations:
+- For critical applications: Keep top 2 sensors
+- For cost-sensitive applications: Keep top 1 sensors
+- Sensors safe to remove first: Spindle_Vibration(?m), Voltage(volts), Hydraulic_Oil_Temperature(?C)
+
+Files Generated:
+- feature_importance.png
+- performance_vs_sensors.png
+- configuration_comparison.png
+- incremental_removal_results.csv
+- sensor_combinations.csv
+- detailed_configurations.csv
+- recommendations.csv

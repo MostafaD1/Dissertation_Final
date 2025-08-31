@@ -1,0 +1,8 @@
+MACHINE Makino-L3-Unit1-2015 ANALYSIS
+==============================
+
+Total_Records: 818.00
+Failure_Count: 415.00
+Failure_Rate_%: 50.73
+Date_Range_Days: 195.00
+Avg_Daily_Records: 4.19

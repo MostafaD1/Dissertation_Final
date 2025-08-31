@@ -1,0 +1,38 @@
+{
+  "feature_columns": [
+    "Hydraulic_Pressure(bar)",
+    "Coolant_Pressure(bar)",
+    "Air_System_Pressure(bar)",
+    "Coolant_Temperature",
+    "Hydraulic_Oil_Temperature(?C)",
+    "Spindle_Bearing_Temperature(?C)",
+    "Spindle_Vibration(?m)",
+    "Tool_Vibration(?m)",
+    "Spindle_Speed(RPM)",
+    "Voltage(volts)",
+    "Torque(Nm)",
+    "Cutting(kN)"
+  ],
+  "sensors_used": [
+    "Hydraulic_Pressure(bar)",
+    "Coolant_Pressure(bar)",
+    "Air_System_Pressure(bar)",
+    "Coolant_Temperature",
+    "Hydraulic_Oil_Temperature(?C)",
+    "Spindle_Bearing_Temperature(?C)",
+    "Spindle_Vibration(?m)",
+    "Tool_Vibration(?m)",
+    "Spindle_Speed(RPM)",
+    "Voltage(volts)",
+    "Torque(Nm)",
+    "Cutting(kN)"
+  ],
+  "machine_mapping": {
+    "Makino-L1-Unit1-2013": "M1",
+    "Makino-L2-Unit1-2015": "M2",
+    "Makino-L3-Unit1-2015": "M3"
+  },
+  "total_samples": 2500,
+  "failure_rate": 0.506,
+  "data_source": "results/imputation_results/df_imputed.csv"
+}

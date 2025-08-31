@@ -1,0 +1,13 @@
+,missing_count,missing_percentage
+Torque(Nm),7,0.8557457212713936
+Hydraulic_Oil_Temperature(?C),6,0.7334963325183375
+Coolant_Pressure(bar),4,0.4889975550122249
+Coolant_Temperature,4,0.4889975550122249
+Spindle_Bearing_Temperature(?C),4,0.4889975550122249
+Spindle_Vibration(?m),3,0.36674816625916873
+Cutting(kN),3,0.36674816625916873
+Air_System_Pressure(bar),2,0.24449877750611246
+Voltage(volts),2,0.24449877750611246
+Hydraulic_Pressure(bar),1,0.12224938875305623
+Spindle_Speed(RPM),1,0.12224938875305623
+Tool_Vibration(?m),0,0.0

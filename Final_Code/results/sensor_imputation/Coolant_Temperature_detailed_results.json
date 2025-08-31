@@ -1,0 +1,89 @@
+{
+  "Ridge": {
+    "best_params": {
+      "regressor__alpha": 1000.0
+    },
+    "cv_rmse_mean": 8.31782160226991,
+    "cv_rmse_std": 1.3861033154607123,
+    "train_rmse": 8.268233865664989,
+    "test_rmse": 8.236731433133972,
+    "test_mae": 7.511703618243767,
+    "test_r2": 0.00735099583788601,
+    "overfitting_ratio": 0.996189944183626,
+    "regularization": "L2 - Shrinks coefficients smoothly"
+  },
+  "Lasso": {
+    "best_params": {
+      "regressor__alpha": 0.1
+    },
+    "cv_rmse_mean": 8.321364490951325,
+    "cv_rmse_std": 1.416289329360943,
+    "train_rmse": 8.2648649188949,
+    "test_rmse": 8.240201855548491,
+    "test_mae": 7.52198116170852,
+    "test_r2": 0.006514344281997153,
+    "overfitting_ratio": 0.9970159145263191,
+    "regularization": "L1 - Feature selection via sparsity"
+  },
+  "ElasticNet": {
+    "best_params": {
+      "regressor__alpha": 1.0,
+      "regressor__l1_ratio": 0.1
+    },
+    "cv_rmse_mean": 8.32138064923293,
+    "cv_rmse_std": 1.3310308754202576,
+    "train_rmse": 8.287935009431736,
+    "test_rmse": 8.234676232056517,
+    "test_mae": 7.509048688422517,
+    "test_r2": 0.00784629881113319,
+    "overfitting_ratio": 0.9935739388261839,
+    "regularization": "L1 + L2 - Combined benefits"
+  },
+  "RandomForest": {
+    "best_params": {
+      "regressor__max_depth": 5,
+      "regressor__min_samples_split": 5,
+      "regressor__n_estimators": 50
+    },
+    "cv_rmse_mean": 8.202328081363328,
+    "cv_rmse_std": 1.1175949805338503,
+    "train_rmse": 7.4226905389857345,
+    "test_rmse": 8.08889340259222,
+    "test_mae": 7.345645144870876,
+    "test_r2": 0.04266458665857675,
+    "overfitting_ratio": 1.0897522077887296,
+    "regularization": "Ensemble averaging + tree constraints"
+  },
+  "SVR": {
+    "best_params": {
+      "regressor__C": 0.1,
+      "regressor__epsilon": 0.2,
+      "regressor__kernel": "rbf"
+    },
+    "cv_rmse_mean": 8.79499211571054,
+    "cv_rmse_std": 1.8467346871342563,
+    "train_rmse": 8.725802880342538,
+    "test_rmse": 8.795710496740341,
+    "test_mae": 7.309753831797251,
+    "test_r2": -0.13195132716579794,
+    "overfitting_ratio": 1.0080115970251047,
+    "regularization": "Complexity parameter C + epsilon-insensitive"
+  },
+  "XGBoost": {
+    "best_params": {
+      "regressor__learning_rate": 0.1,
+      "regressor__max_depth": 3,
+      "regressor__n_estimators": 50,
+      "regressor__reg_alpha": 0.1,
+      "regressor__reg_lambda": 2.0
+    },
+    "cv_rmse_mean": 8.27778472644144,
+    "cv_rmse_std": 1.2745148019723584,
+    "train_rmse": 7.459249855956048,
+    "test_rmse": 8.136370318517518,
+    "test_mae": 7.348345226711697,
+    "test_r2": 0.031393645977048856,
+    "overfitting_ratio": 1.0907759460585442,
+    "regularization": "L1/L2 regularization + gradient boosting controls"
+  }
+}

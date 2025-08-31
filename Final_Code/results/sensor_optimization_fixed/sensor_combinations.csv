@@ -1,0 +1,7 @@
+n_sensors,sensors,auc_mean,auc_std,performance_retention
+2,"Hydraulic_Pressure(bar), Torque(Nm)",0.9938890819909462,0.0002917230409688835,99.79987919299975
+3,"Hydraulic_Pressure(bar), Torque(Nm), Cutting(kN)",0.9951471029810061,0.00019266665328459276,99.92620148097451
+4,"Hydraulic_Pressure(bar), Torque(Nm), Cutting(kN), Coolant_Pressure(bar)",0.9960375877307662,0.0006665827669087912,100.01561816947586
+5,"Hydraulic_Pressure(bar), Torque(Nm), Cutting(kN), Coolant_Pressure(bar), Spindle_Speed(RPM)",0.9971470300525209,0.00017704015138851145,100.1270211536609
+6,"Hydraulic_Pressure(bar), Torque(Nm), Cutting(kN), Coolant_Pressure(bar), Spindle_Speed(RPM), Coolant_Temperature",0.9966782313699083,0.0003592794350974532,100.07994743815448
+8,"Hydraulic_Pressure(bar), Torque(Nm), Cutting(kN), Coolant_Pressure(bar), Spindle_Speed(RPM), Coolant_Temperature, Spindle_Bearing_Temperature(?C), Air_System_Pressure(bar)",0.9961871062866772,0.00027289013861534254,100.03063185066765

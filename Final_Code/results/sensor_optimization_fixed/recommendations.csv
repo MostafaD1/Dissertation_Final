@@ -1,0 +1,4 @@
+criterion,n_sensors_needed,sensors_removed,auc,cost_savings_pct
+95% Performance,2,10,0.9938890819909462,83.33333333333334
+90% Performance,1,11,0.9274841247402127,91.66666666666666
+Best Efficiency,1,11,0.9274841247402127,91.66666666666666
